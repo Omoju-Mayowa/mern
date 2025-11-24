@@ -1,2 +1,43 @@
-# mern
-A streamlined MERN-stack system built for posting, managing, and delivering content with clean APIs, dynamic UI, and modular controllers. Focused on efficiency, flexible data handling, and a scalable structure that supports modern web features without unnecessary complexity.
+#Mern Blog
+
+<h1>Mern Blog</h1>
+<h3>Prototype for more advanced features</h3>
+<br>
+
+<h4>Description</h4>
+<p>A streamlined MERN-stack system built for posting, managing, and delivering content with clean APIs, dynamic UI, and modular controllers. Focused on efficiency, flexible data handling, and a scalable structure that supports modern web features without unnecessary complexity.</p>
+<br>
+
+<h4>Features</h4>
+<p>
+    <ul>
+        <li>Double Password Hashing with Password Pepper Rotation</li>
+        <li>IP tracking and Shadowbanning IP</li>
+        <li>Posting</li>
+        <li>Account Creation</li>
+        <li>Multi-Device Responsive</li>
+        <li>Categories</li>
+        <li>Mongo DB</li>
+        <li>Thumbnails For Posts</li>
+        <li>Avatars for Users</li>
+        <li>Post Creation Date</li>
+    </ul>
+</p>
+<br>
+
+<h4>Beta Features</h4>
+<p>
+    <ul>
+        <li>Messaging</li>
+        <li>Single Sign On</li>
+        <li>Flexibilty on Posts</li>
+        <li>Realtime Updates</li>
+        <li>Forums</li>
+        <li>Admin Dahsboards</li>
+        <li>Data Export</li>
+        <li>Comment Section</li>
+        <li>Post and Profile Views</li>
+        <li>Likes</li>
+        <li>Follower or Friend Systems</li>
+    </ul>
+</p>
