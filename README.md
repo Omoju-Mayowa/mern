@@ -41,3 +41,11 @@
         <li>Follower or Friend Systems</li>
     </ul>
 </p>
+
+
+<br>
+<h4>Copyright ©</h4>
+<p>
+    <h5>This is a personal project, built and developed by Omoju Oluwamayowa(Nox).</h5>
+    <small>This is not for distribution or sharing</small>
+</p>
