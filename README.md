@@ -46,6 +46,8 @@
 <br>
 <h4>Copyright ©</h4>
 <p>
-    <h5>This is a personal project, built and developed by Omoju Oluwamayowa(Nox).</h5>
-    <small>This is not for distribution or sharing</small>
+    <h5>
+        <p?>This is a personal project, built and developed by Omoju Oluwamayowa(Nox).</p>
+        <small>This is not for distribution or sharing</small>
+    </h5>
 </p>
