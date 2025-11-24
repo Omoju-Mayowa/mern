@@ -25,7 +25,7 @@
 </p>
 <br>
 
-<h4>Beta Features</h4>
+<h4>Beta Features(Still going to be developed)</h4>
 <p>
     <ul>
         <li>Messaging</li>
