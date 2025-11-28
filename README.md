@@ -44,6 +44,19 @@
 
 
 <br>
+
+<h3>This project makes use of MERN-STACK</h3>
+<h4>MERN-stack means</h4>
+<p>
+    <ul>
+        <li>MongoDB</li>
+        <li>Express JS</li>
+        <li>React</li>
+        <li>NodeJS</li>
+    </ul>
+</p>
+
+<br>
 <h4>Copyright ©</h4>
 <p>
     <h5>
