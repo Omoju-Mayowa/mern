@@ -1,6 +1,6 @@
 #Mern Blog
 
-<h1 style="text-decoration: underline;">Mern Blog</h1>
+<h1 style="text-decoration: wavy;">Mern Blog</h1>
 <h3>Prototype for more advanced features</h3>
 <br>
 
