@@ -1,11 +1,11 @@
 #Mern Blog
 
 <h1 style="text-decoration: underline;">Mern Blog</h1>
-<h3>Prototype for more advanced features</h3>
+<h3>A Prototype for a more advanced platform.</h3>
 <br>
 
 <h4>Description</h4>
-<p>A streamlined MERN-stack system built for posting, managing, and delivering content with clean APIs, dynamic UI, and modular controllers. Focused on efficiency, flexible data handling, and a scalable structure that supports modern web features without unnecessary complexity.</p>
+<p>A streamlined MERN-stack multi-blogging system built for posting, managing, and delivering content with clean APIs, dynamic UI, and modular controllers. Focused on efficiency, flexible data handling, and a scalable structure that supports modern web features without unnecessary complexity.</p>
 <br>
 
 <h4>Features</h4>
