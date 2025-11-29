@@ -1,6 +1,6 @@
 #Mern Blog
 
-<h1>Mern Blog</h1>
+<h1 style="text-decoration: underline;">Mern Blog</h1>
 <h3>Prototype for more advanced features</h3>
 <br>
 
@@ -42,6 +42,19 @@
     </ul>
 </p>
 
+
+<br>
+
+<h3>This project makes use of MERN-STACK</h3>
+<h4>MERN-stack means</h4>
+<p>
+    <ul>
+        <li>MongoDB</li>
+        <li>Express JS</li>
+        <li>React</li>
+        <li>NodeJS</li>
+    </ul>
+</p>
 
 <br>
 <h4>Copyright ©</h4>
