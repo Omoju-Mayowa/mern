@@ -29,7 +29,7 @@ const CursorManager = () => {
       }
     }
 
-    document.body.style.cursor = `url(${cursor}), auto`;
+    document.querySelector('#root').style.cursor = `url(${cursor}), auto`;
 
     // Link Custom Cursors
     const links = document.querySelectorAll('a')

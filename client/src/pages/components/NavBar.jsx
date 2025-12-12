@@ -4,7 +4,8 @@ import Logo from '../images/logo.png'
 import { FaBars } from "react-icons/fa"
 import { motion, AnimatePresence, stagger } from 'motion/react'
 import { AiOutlineClose } from "react-icons/ai"
-import { UserContext } from './context/userContext'
+import { UserContext } from './context/UserContext'
+
 
 const scrollTop = () => {
   window.scrollTo(0, 0)
@@ -13,13 +14,6 @@ const scrollTop = () => {
 
 
 // To control and easily modify links
-const links = [
-  {name: `User Name`, path: '/profile/1'},
-  {name: 'Create Post', path: '/create'},
-  {name: 'Authors', path: '/authors'},
-  {name: 'Logout', path: '/logout'},
-  {name: 'Login', path: '/login'}
-]
 
 const menuVariants = {
   hidden: { opacity: 0, y: -50 },
@@ -42,6 +36,14 @@ const itemVariants = {
 const Header = () => {
   const [isNavShowing, setIsNavShowing] = useState(window.innerWidth > 1024)
   const {currentUser} = useContext(UserContext)
+
+  const links = [
+    {name: `${currentUser?.name}`, path: '/profile/1'},
+    {name: 'Create Post', path: '/create'},
+    {name: 'Authors', path: '/authors'},
+    {name: 'Logout', path: '/logout'},
+    {name: 'Login', path: '/login'}
+  ]
 
   
   // Determine which links to show based on login status

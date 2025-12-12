@@ -24,6 +24,7 @@ const Posts = () => {
     fetchPosts()
   }, [])
 
+
   if(isLoading) {
     return <Loader />
   }

@@ -7,10 +7,16 @@ const scrollTop = () => {
 }
 
 const PostItem = ({postID, category, title, description, authorID, thumbnail, createdAt}) => {
+  // ? Shorter Description of post in order to prevent too much use of screen space
   const shortDescription = description.length > 145 ? description.substr(0, 145) + '...' : description;
-  const postTitle = title.length > 30 ? title.substr(0, 30) + '...' : title;
+  // ? Shorter Post Title
+  const postTitle = title.length > 60 ? title.substr(0, 60) + '...' : title;
+  // ? ImageUrl for thumbnail for easy editing
   const imageUrl = `${import.meta.env.VITE_ASSETS_URL}/uploads/${thumbnail}`;
-  console.log('Image URL:', imageUrl, 'Thumbnail:', thumbnail);
+  
+  // console.log('Image URL:', imageUrl, 'Thumbnail:', thumbnail);
+  
+  // *
   return (
     <article className="post">
       <div className="post__thumbnail">

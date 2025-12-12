@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios';
-import {UserContext} from './components/context/userContext.js'
+import {UserContext} from './components/context/UserContext'
 
 const scrollTop = () => {
   window.scrollTo(0, 0);

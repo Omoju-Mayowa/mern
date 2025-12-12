@@ -244,10 +244,11 @@ const loginUser = async (req, res, next) => {
             }
         }
 
+
         const user = await User.findOne({ email: emailKey });
         if (!user) {
             await sleep(SHADOW_DELAY_FAILED);
-            return next(new HttpError('Invalid Credentials!', 422));
+            return next(new HttpError('Invalid Credentials.', 404));
         }
 
         // Password check

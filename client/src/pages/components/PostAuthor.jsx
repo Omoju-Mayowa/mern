@@ -34,7 +34,7 @@ const PostAuthor = ({authorID, createdAt}) => {
   const authorImg = `${import.meta.env.VITE_ASSETS_URL}/uploads/${author?.avatar}`
 
   return (
-    <Link onClick={scrollTop} to={`posts/users/sdfds`} className='post__author'>
+    <Link onClick={scrollTop} to={`/posts/users/${authorID}`} className='post__author'>
         <div className="post__author-avatar">
             <img src={authorImg} alt="" />
         </div>

@@ -9,7 +9,7 @@ const postSchema = new Schema ({
     // title: { type: String, required: true },
 
     // category 
-    category: {type: String, reqired: true, enum: ['Technology', 'Health', 'Science', 'Sports', 'Entertainment', 'Business', 'Travel', 'Lifestyle', 'Education', 'Food', 'Politics', 'Uncategorized']},
+    category: {type: String, required: true},
 }, {timestamps: true})
 
 

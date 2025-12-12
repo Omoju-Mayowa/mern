@@ -355,6 +355,7 @@ footer {
 .post__author-details small {
   color: var(--color-gray);
   font-size: 0.8rem;
+  text-transform: capitalize;
 }
 
 /* ---------- TAGS ---------- */
@@ -836,4 +837,18 @@ button[type="submit"] {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
   }
+}
+
+
+/* ============================================================== LOADER ============================================================== */
+.loader {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader__image {
+  width: 4.5rem;
+  aspect-ratio: 1/1;
 }
